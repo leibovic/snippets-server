@@ -1,0 +1,6 @@
+name: snippets-server
+framework:
+  type: node
+mem: 128M
+ignores:
+  - .git
