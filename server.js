@@ -21,7 +21,7 @@ var server = http.createServer(function(request, response) {
       var tweet = tweets[i];
       messages.push({
         text: tweet.text,
-        url: "https://twitter.com/FennecNightly/status/" + tweet.id,
+        url: "https://twitter.com/FennecNightly/status/" + tweet.id_str,
         icon: icon
       });
     }
