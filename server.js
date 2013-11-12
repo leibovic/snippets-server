@@ -22,6 +22,8 @@ var server = http.createServer(function(request, response) {
       messages.push({
         text: tweet.text,
         url: "https://twitter.com/FennecNightly/status/" + tweet.id_str,
+        target_geo: "US",
+        id: tweet.id,
         icon: icon
       });
     }
